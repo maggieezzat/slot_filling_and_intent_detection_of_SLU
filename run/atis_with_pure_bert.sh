@@ -7,7 +7,7 @@ task_intent_detection=$2 # CLS, max, CLS_max
 balance_weight=0.5
 
 pretrained_model_type=bert
-pretrained_model_name=bert-base-uncased #bert-large-uncased-whole-word-masking #bert-base-uncased
+pretrained_model_name=bert-base-multilingual-cased #bert-large-uncased-whole-word-masking #bert-base-uncased
 
 dataroot=data/atis-2
 dataset=atis
