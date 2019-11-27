@@ -22,6 +22,7 @@ dropout_rate=0.1 # 0.1, 0.5
 max_epoch=30
 
 device=0
+deviceId=-1
 # device=0 means auto-choosing a GPU
 # Set deviceId=-1 if you are going to use cpu for training.
 experiment_output_path=exp
